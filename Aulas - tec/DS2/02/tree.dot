@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<node &#35;0<br/>sexo_Mulher &le; 0.5<br/>samples = 600<br/>value = 34.961>, fillcolor="#f3c4a3"] ;
+1 [label=<node &#35;1<br/>percentual_gordura &le; 28.465<br/>samples = 300<br/>value = 39.988>, fillcolor="#eca16c"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<node &#35;2<br/>altura &le; 156.36<br/>samples = 298<br/>value = 40.079>, fillcolor="#eca16b"] ;
+1 -> 2 ;
+3 [label=<node &#35;3<br/>samples = 3<br/>value = 32.381>, fillcolor="#f7d6bf"] ;
+2 -> 3 ;
+4 [label=<node &#35;4<br/>samples = 295<br/>value = 40.157>, fillcolor="#eba06a"] ;
+2 -> 4 ;
+5 [label=<node &#35;5<br/>samples = 2<br/>value = 26.523>, fillcolor="#ffffff"] ;
+1 -> 5 ;
+6 [label=<node &#35;6<br/>capacidade_pulmonar &le; 5.831<br/>samples = 300<br/>value = 29.933>, fillcolor="#fae7da"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<node &#35;7<br/>altura &le; 180.096<br/>samples = 296<br/>value = 29.785>, fillcolor="#fae8db"] ;
+6 -> 7 ;
+8 [label=<node &#35;8<br/>samples = 294<br/>value = 29.685>, fillcolor="#fae9dc"] ;
+7 -> 8 ;
+9 [label=<node &#35;9<br/>samples = 2<br/>value = 44.605>, fillcolor="#e58139"] ;
+7 -> 9 ;
+10 [label=<node &#35;10<br/>samples = 4<br/>value = 40.855>, fillcolor="#ea9b62"] ;
+6 -> 10 ;
+}
